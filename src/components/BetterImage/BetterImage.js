@@ -22,10 +22,7 @@ export default class BetterImage extends React.Component {
   }
 
 
-  ///////////////////////////* Hoisted Variables */////////////////////////////
-  // let resizedImageWidth;
-  // let resizedImageHeight;
-
+//////////////////* MAIN fUNCTIONS *///////////////////
   /////////////////////////* Image Resize Functionality *////////////////////////
   //  resizeFunc(string) {
   //   let foundX = false;

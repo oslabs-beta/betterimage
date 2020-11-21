@@ -24,7 +24,12 @@ In the project directory, you can run:
 
 ### 1.2 Adding BetterImage
 
-### 1.3 Related Resources
+### 1.4 Known Installation Bugs
+nodemon or react dev server not running (vice versa)
+
+issue with node gui (represented as ____chkstk_darwin)
+
+[NodeGUI Issue](https://github.com/nodegui/nodegui/issues/391)
 
 
 ## 2 Main Concepts
@@ -54,6 +59,9 @@ BetterImage component
 ## 3 Advanced Guides
 
 
+
+
+
 ## 4 Testing/Tracer
 
 
@@ -62,6 +70,8 @@ BetterImage component
 ### 5.1 Isometric Rendering Optimization
 
 ## 6 Reference
+
+### 6.1 Related Resources
 
 ## 7 FAQ
 
