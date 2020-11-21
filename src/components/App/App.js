@@ -11,7 +11,7 @@ function App() {
         source={bigPNGImage}
         resize={"200x200"}
         format={"webp"}
-        quality={"10"}
+        quality={"80"}
       />
     </div>
   );
