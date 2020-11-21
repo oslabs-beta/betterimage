@@ -1,23 +1,21 @@
-import React, { Component } from 'react';
-import BetterImage from '../BetterImage/BetterImage.js';
-import originalImage from './images/bestPhotoEver.png';
-import bigPNG from "./images/bigPNG.png"
+import React from "react";
+import BetterImage from "../BetterImage/BetterImage.js";
+import originalImage from "./images/bestPhotoEver.png";
+import bigJPGImage from "./images/bigJPG.jpg";
+import bigPNGImage from "./images/bigPNG.png";
 
+function App() {
+  return (
+    <div>
+      <BetterImage
+        source={bigPNGImage}
+        resize={"200x200"}
+        format={"webp"}
+        quality={"80"}
+      />
+    </div>
+  );
 
-class App extends Component {
-
-  render() { 
-    return (
-      <div>
-        <BetterImage
-          source={bigPNG}
-          resize={'900x1200'}
-          format={'webp'}
-          quality={100}
-        />
-      </div>
-    );
-  }
 }
 
 export default App;
